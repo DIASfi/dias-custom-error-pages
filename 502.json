@@ -1,0 +1,10 @@
+{
+  "meta": {},
+  "data": {
+    "status": "INTERNAL_ERROR",
+    "description": {
+      "fin": "Tekninen virhe. Yritä hetken kuluttua uudestaan.",
+      "eng": ""
+    }
+  }
+}
