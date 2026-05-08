@@ -1,73 +1,92 @@
 <!DOCTYPE html>
 <html lang="fi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>DIAS</title>
     <style type="text/css">
-      html,
-      body {
-        background-color: #d4eaf9;
-        max-width: 100%;
-        overflow-x: hidden;
-      }
+        html,
+        body {
+            background-color: #d4eaf9;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
 
-      html {
-        color: #444;
-        font-family: sans-serif;
-        font-size: 15px;
-        min-height: 100%;
-        position: relative;
-      }
+        html {
+            color: #444;
+            font-family: sans-serif;
+            font-size: 15px;
+            min-height: 100%;
+            position: relative;
+        }
 
-      .dias-container {
-        margin: 10% auto;
-        max-width: 480px;
-      }
+        .dias-container {
+            margin: 10% auto;
+            max-width: 480px;
+        }
 
-      .dias-container > div {
-        line-height: 1.67;
-      }
+        .dias-container > div {
+            line-height: 1.67;
+        }
 
-      .modal-body {
-        background-color: #fff;
-        border-radius: 8px 8px 0 0;
-        padding: 40px 58px 80px;
-      }
+        .modal-body {
+            background-color: #fff;
+            border-radius: 8px 8px 0 0;
+            padding: 40px 58px 40px;
+        }
 
-      .modal-footer {
-        background-color: #f3faff;
-        border-radius: 0 0 8px 8px;
-        padding: 40px 58px;
-      }
+        .modal-footer {
+            background-color: #f3faff;
+            border-radius: 0 0 8px 8px;
+            padding: 40px 58px;
+        }
 
-      a {
-        color: #2ad0a7;
-      }
+        a {
+            color: #2ad0a7;
+        }
 
-      h2 {
-        font-size: 24px;
-        margin: 0 0 12px;
-      }
+        h2 {
+            font-size: 24px;
+            margin: 0 0 12px;
+        }
 
-      img {
-        display: block;
-        height: 30px;
-        margin: 0 auto;
-      }
+        img {
+            display: block;
+            height: 30px;
+            margin: 0 auto;
+        }
     </style>
-  </head>
-  <body>
-    <div class="dias-container">
-      <div>
+</head>
+<body>
+<div class="dias-container">
+    <div>
         <div class="modal-body">
-          <h2>Palvelu ei ole juuri nyt käytettävissä</h2>
-          <i>Virhekoodi 502</i>
+            <h2>Palvelu ei ole juuri nyt käytettävissä</h2>
+            <i>Virhekoodi 502</i>
 
-          <p>DIAS-palveluissa on odottamaton häiriö tai suunniteltu
-            käyttökatko. Odota hetki ja yritä sitten uudestaan. Mikäli
-            häiriö jatkuu, ota yhteyttä
-            <a href="https://asiakaspalvelu.dias.fi">asiakaspalveluun</a>.</p>
+            <p>DIAS-palveluissa on odottamaton häiriö tai suunniteltu
+                käyttökatko. Odota hetki ja yritä sitten uudestaan. Mikäli
+                häiriö jatkuu, ota yhteyttä
+                <a href="https://asiakaspalvelu.dias.fi">asiakaspalveluun</a>.</p>
+        </div>
+        <div class="modal-body">
+            <h2>Tjänsten är för närvarande inte tillgänglig</h2>
+            <i>Felkod 502</i>
+
+            <p>Det finns för närvarande en oväntad störning eller ett planerat avbrott i DIAS-tjänsterna. Vänta en stund
+                och försök sedan igen. Om störningen fortsätter, kontakta
+                <a href="https://asiakaspalvelu.dias.fi/hc/sv-fi/articles/4543806915356-Kontaktuppgifter">kundtjänsten</a>.
+            </p>
+        </div>
+        <div class="modal-body">
+            <h2>The service is currently unavailable</h2>
+            <i>Error code 502</i>
+
+            <p>There is currently an unexpected disruption or a planned service interruption in the DIAS services.
+                Please
+                wait a moment and try again. If the disruption continues, contact
+                <a href="https://asiakaspalvelu.dias.fi/hc/en-us/articles/4543806915356-Contact-information">customer
+                    service</a>.</p>
         </div>
         <div class="modal-footer">
           <img
@@ -97,7 +116,7 @@
             alt="DIAS"
           />
         </div>
-      </div>
     </div>
-  </body>
+</div>
+</body>
 </html>
