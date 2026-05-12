@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html lang="fi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>DIAS</title>
     <style type="text/css">
-      html,
-      body {
-        background-color: #d4eaf9;
-        max-width: 100%;
-        overflow-x: hidden;
-      }
+        html,
+        body {
+            background-color: #d4eaf9;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
 
-      html {
-        color: #444;
-        font-family: sans-serif;
-        font-size: 15px;
-        min-height: 100%;
-        position: relative;
-      }
+        html {
+            color: #444;
+            font-family: sans-serif;
+            font-size: 15px;
+            min-height: 100%;
+            position: relative;
+        }
 
-      .dias-container {
-        margin: 10% auto;
-        max-width: 480px;
-      }
+        .dias-container {
+            margin: 3% auto;
+            max-width: 680px;
+        }
 
-      .dias-container > div {
-        line-height: 1.67;
-      }
+        .dias-container > div {
+            line-height: 1.67;
+        }
 
-      .modal-body {
-        background-color: #fff;
-        border-radius: 8px 8px 0 0;
-        padding: 40px 58px 80px;
-      }
+        .modal-body {
+            background-color: #fff;
+            border-radius: 8px 8px 0 0;
+            padding: 40px 58px 40px;
+        }
 
-      .modal-footer {
-        background-color: #f3faff;
-        border-radius: 0 0 8px 8px;
-        padding: 40px 58px;
-      }
+        .modal-footer {
+            background-color: #f3faff;
+            border-radius: 0 0 8px 8px;
+            padding: 40px 58px;
+        }
 
-      a {
-        color: #2ad0a7;
-      }
+        a {
+            color: #2ad0a7;
+        }
 
-      h2 {
-        font-size: 24px;
-        margin: 0 0 12px;
-      }
+        h2 {
+            font-size: 24px;
+            line-height: 1.4;
+            margin: 0 0 12px;
+            margin-top: 1.5em;
+        }
 
-      img {
-        display: block;
-        height: 30px;
-        margin: 0 auto;
-      }
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        img {
+            display: block;
+            height: 30px;
+            margin: 0 auto;
+        }
     </style>
-  </head>
-  <body>
-    <div class="dias-container">
-      <div>
+</head>
+<body>
+<div class="dias-container">
+    <div>
         <div class="modal-body">
-          <h2>Pääsy estetty</h2>
-          <i>Virhekoodi 403</i>
+            <h2>Pääsy estetty</h2>
+            <i>Virhekoodi 403</i>
 
-          <p>Pyydetylle sivulle pääsy on estetty. Tarkista pyytämäsi
-          sivun osoite virheen varalta.</p>
-          </div>
+            <p>Pyydetylle sivulle pääsy on estetty. Tarkista pyytämäsi
+                sivun osoite virheen varalta.</p>
+            <h2>Åtkomst nekad</h2>
+            <i>Felkod 403</i>
+
+            <p>Åtkomsten till den begärda sidan är nekad. Kontrollera att adressen till sidan du begärde är korrekt.</p>
+            <h2>Access denied</h2>
+            <i>Error code 403</i>
+
+            <p>Access to the requested page is denied. Please check the page address you requested for errors.</p>
+        </div>
         <div class="modal-footer">
           <img
             src="data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIy
@@ -95,7 +109,7 @@
             alt="DIAS"
           />
         </div>
-      </div>
     </div>
-  </body>
+</div>
+</body>
 </html>
